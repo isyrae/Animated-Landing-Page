@@ -2,7 +2,8 @@
 
 A beautifully animated, gradient-rich landing page built with **Next.js** and **Tailwind CSS** — perfect for modern web presentations, portfolios, or startup homepages.
 
-![Main Screenshot](<your-screenshot-url>)
+## 🖼️ Preview
+![Main Page](https://files.catbox.moe/fa6wuj.gif)
 
 ---
 
@@ -21,14 +22,28 @@ A beautifully animated, gradient-rich landing page built with **Next.js** and **
 
 ```
 animation-landing-page/
-├── public/              → Static assets (images, favicon, etc.)
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── ...
 ├── src/
-│   ├── pages/           → Main page components (index.tsx, etc.)
-│   └── styles/          → Global styles (if used)
-├── tailwind.config.ts   → Tailwind config
-├── next.config.js       → Next.js configuration
-├── package.json         → Project metadata and dependencies
-└── README.md            → You’re reading it!
+│   ├── components/
+│   │   └── NavBar.tsx
+│   ├── pages/
+│   │   ├── api/...
+├── │   ├── _app.tsx
+│   │   ├── index.tsx
+│   │   └── _document.tsx
+│   └── styles/
+│       └── global.css
+│       
+│   
+├── .gitignore
+├── next.config.js
+├── package.json
+├── tsconfig.json
+├── README.md
+└── tailwind.css
 ```
 
 ---
@@ -38,7 +53,7 @@ animation-landing-page/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/animation-landing-page.git
+git clone https://github.com/isyrae/Animated-Landing-Page.git
 cd animation-landing-page
 ```
 
@@ -106,14 +121,6 @@ In **aaPanel**:
 - Enable SSL (optional, but recommended)
 
 You're live! 🥳
-
----
-
-## 🖼️ Preview
-
-![Animated Preview](<your-screenshot-url>)
-
-> 💡 Replace `<your-screenshot-url>` with your hosted screenshot (e.g. Imgur, GitHub CDN, or local `/public` image)
 
 ---
 
